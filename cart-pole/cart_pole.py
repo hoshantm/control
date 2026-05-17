@@ -1,6 +1,16 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+Created on Mon May 18 00:00:45 2026
+
+@author: Tarik Hoshan
+
+Control inverted pendulum using LQR. We assume x, theta, x dot and theta dot are available. cart_pole_extract_params.py
+has been used to extract the dimensions and mass of the cart and pole and are then manually copied into this code. It might
+be necessary to copy them again if a different version of gymnasium is used.
+"""
+
 import gymnasium as gym  # Mujoco gymnasium version 1.2.3
 import numpy as np
 import math

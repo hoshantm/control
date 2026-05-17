@@ -1,6 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+Created on Mon May 18 00:00:45 2026
+
+@author: Tarik Hoshan
+
+Extract dimenstion and mass of cart and pole
+"""
+
 import gymnasium as gym  # Mujoco gymnasium version 1.2.3
 import numpy as np
 import math
